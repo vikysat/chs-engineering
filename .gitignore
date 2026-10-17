@@ -1,0 +1,11 @@
+data/private/
+*.cif
+__pycache__/
+data/models/*/
+data/models/*.zip
+data/*.ckp.gz
+data/*.mldist
+data/*.model.gz
+data/*.splits.nex
+data/*.bionj
+data/*.uniqueseq.phy

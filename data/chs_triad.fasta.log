@@ -1,0 +1,327 @@
+IQ-TREE version 3.1.4 for Linux x86 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    LAPTOP (AVX2, FMA3, 7 GB RAM)
+Command: iqtree -s data/chs_triad.fasta -m MFP -mset LG,WAG,JTT -mrate G,I+G -B 1000 -nt AUTO -redo
+Seed:    535234 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Oct 17 22:28:56 2026
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file data/chs_triad.fasta ... Fasta format detected
+Reading fasta file: done in 0.00061202 secs
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000838995 secs using 2062% CPU
+WARNING: 4 sites contain only gaps or ambiguous characters.
+Alignment has 140 sequences with 476 columns, 449 distinct patterns
+374 parsimony-informative, 21 singleton sites, 81 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00529408 secs using 1538% CPU
+   1  P30074       18.28%    passed     99.99%
+   2  P13114       17.02%    passed     99.99%
+   3  Q9FEY5       18.28%    passed     99.99%
+   4  B0LDU5       19.54%    passed     99.93%
+   5  Q9FUB7       18.07%    passed    100.00%
+   6  P9WPF1       17.44%    failed      3.87%
+   7  A0A2Z5QL08   18.28%    passed    100.00%
+   8  P9WPF3       25.84%    failed      0.09%
+   9  O80400       17.23%    passed     96.63%
+  10  Q9AU11       17.86%    passed    100.00%
+  11  P9WPF5       25.84%    failed      0.40%
+  12  Q2R3A1       16.39%    passed     87.09%
+  13  Q8H4L3       15.34%    passed     56.64%
+  14  P06515       18.07%    passed    100.00%
+  15  Q9ZRS4       18.28%    passed    100.00%
+  16  O04220       16.81%    passed     99.95%
+  17  P16107       16.39%    passed    100.00%
+  18  P51089       18.49%    passed    100.00%
+  19  O22586       18.07%    passed    100.00%
+  20  P30079       16.81%    passed     99.96%
+  21  P51090       17.44%    passed    100.00%
+  22  Q9MBB1       14.92%    passed     97.79%
+  23  Q9SEP2       17.02%    passed    100.00%
+  24  O04111       17.86%    passed    100.00%
+  25  O22652       17.23%    passed     99.96%
+  26  O65872       17.02%    passed     99.89%
+  27  P17818       17.23%    passed    100.00%
+  28  P48385       16.39%    passed     99.96%
+  29  P48389       17.86%    passed     99.97%
+  30  Q9LKP7       17.86%    passed    100.00%
+  31  Q9SEP4       17.86%    passed     99.97%
+  32  O82144       18.28%    passed    100.00%
+  33  P23569       18.28%    passed     99.89%
+  34  P51075       17.02%    passed    100.00%
+  35  Q9ZRR8       18.28%    passed    100.00%
+  36  O23730       17.23%    passed     97.86%
+  37  O23731       17.23%    passed     96.56%
+  38  P08894       18.28%    passed    100.00%
+  39  P22927       17.44%    passed     96.76%
+  40  P22928       18.28%    passed    100.00%
+  41  P30073       18.28%    passed     99.99%
+  42  P48387       18.28%    passed    100.00%
+  43  P48388       18.28%    passed     99.96%
+  44  P51084       18.28%    passed     99.99%
+  45  P51088       18.28%    passed     99.99%
+  46  P53414       17.65%    passed     98.73%
+  47  Q96562       16.18%    passed     99.16%
+  48  Q9FSB8       17.44%    passed     99.99%
+  49  Q9MB39       17.44%    passed    100.00%
+  50  Q9MB40       18.49%    passed    100.00%
+  51  Q9XJ57       17.86%    passed    100.00%
+  52  P23419       18.28%    passed    100.00%
+  53  P24826       18.49%    passed    100.00%
+  54  P30080       18.49%    passed    100.00%
+  55  P48390       16.39%    passed    100.00%
+  56  P48406       18.49%    passed     99.99%
+  57  Q01287       18.28%    passed    100.00%
+  58  Q01288       18.28%    passed    100.00%
+  59  Q43163       18.28%    passed    100.00%
+  60  Q43188       18.28%    passed    100.00%
+  61  Q9MB33       17.44%    passed    100.00%
+  62  Q9MB38       17.44%    passed     99.99%
+  63  Q9SBL5       15.76%    passed     99.39%
+  64  O23729       17.23%    passed     98.28%
+  65  O23882       18.28%    passed    100.00%
+  66  P26018       16.39%    passed     99.26%
+  67  P30076       18.28%    passed     99.99%
+  68  P51081       18.28%    passed     99.99%
+  69  P51082       18.28%    passed     99.88%
+  70  P51087       18.28%    passed     99.98%
+  71  P53415       17.23%    passed     99.47%
+  72  Q01286       18.28%    passed    100.00%
+  73  Q41436       18.28%    passed    100.00%
+  74  Q9FSB7       17.44%    passed    100.00%
+  75  Q9M5M0       17.02%    passed     99.98%
+  76  Q9MB41       17.44%    passed     99.99%
+  77  Q9SBL6       15.76%    passed     99.57%
+  78  Q9SML4       18.28%    passed    100.00%
+  79  O23884       18.28%    passed    100.00%
+  80  P13417       17.02%    passed     99.93%
+  81  P22924       17.65%    passed     79.42%
+  82  P22926       18.28%    passed     97.47%
+  83  P23418       18.28%    passed    100.00%
+  84  P48386       18.28%    passed    100.00%
+  85  Q9FSB9       17.44%    passed     99.99%
+  86  Q9MB36       18.49%    passed    100.00%
+  87  Q9SB26       18.28%    passed     99.89%
+  88  Q9SBL7       15.76%    passed     99.08%
+  89  Q9XGX1       15.97%    passed     99.88%
+  90  A2ZEX7       16.39%    passed     86.43%
+  91  O23883       18.28%    passed    100.00%
+  92  P13416       17.02%    passed     99.93%
+  93  P22925       11.97%    passed     62.33%
+  94  P24825       15.97%    passed     86.55%
+  95  P30077       18.28%    passed     99.99%
+  96  P30081       18.28%    passed     99.89%
+  97  P48392       15.34%    passed    100.00%
+  98  P49440       18.28%    passed    100.00%
+  99  P51083       18.28%    passed    100.00%
+ 100  P51085       18.28%    passed     99.99%
+ 101  Q9MB37       17.44%    passed    100.00%
+ 102  Q9SBL3       15.76%    passed     99.60%
+ 103  Q9SBL4       15.76%    passed     99.08%
+ 104  Q9XGX2       15.76%    passed     98.98%
+ 105  Q9XJ58       18.28%    passed    100.00%
+ 106  Q9ZS41       18.28%    passed     99.99%
+ 107  Q9ZS40       16.60%    passed    100.00%
+ 108  O22046       18.28%    passed    100.00%
+ 109  P48400       23.95%    passed     53.38%
+ 110  P48401       23.95%    passed     72.72%
+ 111  P51077       18.28%    passed     99.98%
+ 112  P51078       18.28%    passed    100.00%
+ 113  O22047       18.28%    passed    100.00%
+ 114  P48393       24.16%    passed     76.07%
+ 115  P48397       16.81%    passed     90.35%
+ 116  P30075       18.28%    passed    100.00%
+ 117  P48394       23.74%    passed     82.00%
+ 118  P48396       23.74%    passed     73.22%
+ 119  P48398       16.81%    passed     90.53%
+ 120  P48399       26.05%    passed     86.77%
+ 121  P48402       23.11%    passed     91.86%
+ 122  P48403       23.95%    passed     84.55%
+ 123  P48404       23.11%    passed     50.41%
+ 124  O22045       18.49%    passed    100.00%
+ 125  P24824       15.97%    passed     82.17%
+ 126  Q8RVK9       18.28%    passed    100.00%
+ 127  Q9AU09       17.86%    passed    100.00%
+ 128  B0LDU6       18.07%    passed    100.00%
+ 129  P9WPF4       25.84%    failed      0.40%
+ 130  Q7VEV2       25.84%    failed      0.40%
+ 131  Q7U064       17.44%    failed      3.87%
+ 132  P9WPF0       17.44%    failed      3.87%
+ 133  P54157       23.32%    failed      0.36%
+ 134  P17957       18.49%    passed     99.99%
+ 135  P19168       18.49%    passed    100.00%
+ 136  A0AMG7       18.28%    passed    100.00%
+ 137  A0AMG8       18.28%    passed    100.00%
+ 138  A0AMG9       18.28%    passed    100.00%
+ 139  C6KI62       17.65%    passed     80.08%
+ 140  Q9AU10       17.86%    passed    100.00%
+****  TOTAL        18.26%  8 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Q7U064 is identical to P9WPF1 but kept for subsequent analysis
+NOTE: P9WPF4 is identical to P9WPF5 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00029707 secs using 1519% CPU
+Identifying sites to remove: done in 0.00064683 secs using 1516% CPU
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: P9WPF0 (identical to P9WPF1) is ignored but added at the end
+NOTE: Q7VEV2 (identical to P9WPF5) is ignored but added at the end
+Alignment was printed to data/chs_triad.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to data/chs_triad.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.047 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+16 trees examined
+Threads: 1 / Time: 17.058 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -36155
+Threads: 2 / Time: 13.415 sec / Speedup: 1.272 / Efficiency: 64% / LogL: -36155
+Threads: 3 / Time: 11.643 sec / Speedup: 1.465 / Efficiency: 49% / LogL: -36155
+Determining AUTO threadcount: done in 42.1214 secs using 192.2% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -18302.909
+Optimal log-likelihood: -18302.829
+Proportion of invariable sites: 0.015
+Gamma shape alpha: 0.935
+Parameters optimization took 1 rounds (0.328 sec)
+Time for fast ML tree search: 4.223 seconds
+
+NOTE: ModelFinder requires 41 MB RAM!
+ModelFinder will test up to 12 protein models (sample size: 476 epsilon: 0.100) ...
+Akaike Information Criterion:           LG+G4
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+G4
+Best-fit model: LG+G4 chosen according to BIC
+
+All model information printed to data/chs_triad.fasta.model.gz
+CPU time for ModelFinder: 106.267 seconds (0h:1m:46s)
+Wall-clock time for ModelFinder: 54.382 seconds (0h:0m:54s)
+Generating 1000 samples for ultrafast bootstrap (seed: 535234)...
+
+NOTE: 42 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -18307.475
+2. Current log-likelihood: -18304.079
+3. Current log-likelihood: -18303.599
+Optimal log-likelihood: -18303.563
+Gamma shape alpha: 0.876
+Parameters optimization took 3 rounds (0.957 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.638823 secs using 200% CPU
+Computing ML distances took 0.639104 sec (of wall-clock time) 1.278169 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000260115 secs using 225.7% CPU
+Constructing RapidNJ tree: done in 0.00191903 secs using 373.6% CPU
+Computing RapidNJ tree took 0.002432 sec (of wall-clock time) 0.008884 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -18352.599
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.868 second
+Computing log-likelihood of 98 initial trees ... 9.451 seconds
+Current best score: -18303.563
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -18303.555
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -18253.464
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -18249.233
+Iteration 10 / LogL: -18269.859 / Time: 0h:1m:35s
+Iteration 20 / LogL: -18280.420 / Time: 0h:2m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -18249.233 / CPU time: 68.643
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -18256.986 / Time: 0h:2m:40s (0h:4m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -18246.123
+Iteration 40 / LogL: -18310.337 / Time: 0h:3m:16s (0h:5m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -18244.406
+Iteration 50 / LogL: -18259.004 / Time: 0h:3m:53s (0h:5m:42s left)
+Log-likelihood cutoff on original alignment: -18325.132
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -18244.193
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 58: -18241.124
+Iteration 60 / LogL: -18259.970 / Time: 0h:4m:32s (0h:6m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -18240.198
+Iteration 70 / LogL: -18249.084 / Time: 0h:5m:4s (0h:5m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -18237.228
+Iteration 80 / LogL: -18240.019 / Time: 0h:5m:31s (0h:5m:44s left)
+Iteration 90 / LogL: -18249.313 / Time: 0h:6m:2s (0h:5m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 100: -18237.073
+Iteration 100 / LogL: -18237.073 / Time: 0h:6m:36s (0h:5m:45s left)
+Log-likelihood cutoff on original alignment: -18325.132
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -18252.580 / Time: 0h:7m:11s (0h:5m:11s left)
+Iteration 120 / LogL: -18240.898 / Time: 0h:7m:46s (0h:4m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 121: -18236.099
+Iteration 130 / LogL: -18236.439 / Time: 0h:8m:23s (0h:5m:16s left)
+Iteration 140 / LogL: -18255.131 / Time: 0h:9m:0s (0h:4m:43s left)
+Iteration 150 / LogL: -18237.901 / Time: 0h:9m:37s (0h:4m:9s left)
+Log-likelihood cutoff on original alignment: -18325.132
+Iteration 160 / LogL: -18237.132 / Time: 0h:10m:9s (0h:3m:33s left)
+Iteration 170 / LogL: -18247.396 / Time: 0h:10m:41s (0h:2m:57s left)
+Iteration 180 / LogL: -18236.694 / Time: 0h:11m:12s (0h:2m:21s left)
+Iteration 190 / LogL: -18262.471 / Time: 0h:11m:43s (0h:1m:46s left)
+Iteration 200 / LogL: -18245.486 / Time: 0h:12m:13s (0h:1m:11s left)
+Log-likelihood cutoff on original alignment: -18302.311
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 210 / LogL: -18241.517 / Time: 0h:12m:43s (0h:5m:5s left)
+Iteration 220 / LogL: -18238.089 / Time: 0h:13m:17s (0h:4m:31s left)
+TREE SEARCH COMPLETED AFTER 222 ITERATIONS / Time: 0h:13m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18236.099
+Optimal log-likelihood: -18236.099
+Gamma shape alpha: 0.883
+Parameters optimization took 1 rounds (0.238 sec)
+BEST SCORE FOUND : -18236.099
+Creating bootstrap support values...
+Split supports printed to NEXUS file data/chs_triad.fasta.splits.nex
+Total tree length: 23.291
+
+Total number of iterations: 222
+CPU time used for tree search: 1488.935 sec (0h:24m:48s)
+Wall-clock time used for tree search: 746.336 sec (0h:12m:26s)
+Total CPU time used: 1601.574 sec (0h:26m:41s)
+Total wall-clock time used: 803.809 sec (0h:13m:23s)
+
+Computing bootstrap consensus tree...
+Reading input file data/chs_triad.fasta.splits.nex...
+138 taxa and 822 splits.
+Consensus tree written to data/chs_triad.fasta.contree
+Reading input trees file data/chs_triad.fasta.contree
+Log-likelihood of consensus tree: -18240.018
+
+Analysis results written to: 
+  IQ-TREE report:                data/chs_triad.fasta.iqtree
+  Maximum-likelihood tree:       data/chs_triad.fasta.treefile
+  Likelihood distances:          data/chs_triad.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          data/chs_triad.fasta.splits.nex
+  Consensus tree:                data/chs_triad.fasta.contree
+  Screen log file:               data/chs_triad.fasta.log
+
+Date and Time: Sat Oct 17 22:42:21 2026

@@ -1,0 +1,16 @@
+name: chs-eng
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.11
+  - biopython
+  - pandas
+  - matplotlib
+  - requests
+  - pytest
+  - mafft
+  - iqtree
+  - pip
+  - pip:
+      - torch
+      - fair-esm
+      - cobra
