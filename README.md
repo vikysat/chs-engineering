@@ -19,12 +19,12 @@ ML-guided mutation scoring and NNK library design.
 | 9. Model vs 1CGK comparison | `python src/07_compare_models.py <model.pdb> <name>` | `data/pocket_compare_*.csv` |
 | 10. Overlay image | `pymol -cq src/08_overlay.pml` | `figures/pocket_overlay.png` |
 
-The tree figure in `figures/chs_tree.png` was rendered in iTOL from `data/chs_triad.fasta.treefile`.
+The tree figure in `figures/chs_tree_circular.png` was rendered in iTOL from `data/chs_triad.fasta.treefile`.
 
 ## Results
 
 ### Sequence landscape
-![CHS tree](figures/chs_tree.png)
+![CHS tree](figures/chs_tree_circular.png)
 
 Maximum-likelihood tree of 140 triad-conserving CHS-family sequences (IQ-TREE, LG+G4, 1000 ultrafast bootstraps).
 A small clade on very long branches is highly divergent from the rest and was excluded when choosing structure-prediction candidates.
